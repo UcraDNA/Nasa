@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-ar" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NASA SpaceApps Chanllenge</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+
+   <style>
+      .estilos{
+        color: 'green';
+        fillColor: '#0F0';
+        fillOpacity: 0.7;
+        radius: 150000;
+      }
+      .estilos2{
+        color: 'red';
+        fillColor: '#f03';
+        fillOpacity: 0.7;
+        radius: 150000
+      }
+
+      .estilos3{
+        color: 'celeste';
+        fillColor: '#736AFF';
+        fillOpacity: 0.4;
+        radius: 150000;
+      }
+
+   </style>
+  </head>
+  <body>
+      <header>
+        <div id = "trans">
+          <div id = "Titulo">
+              <h1>1UP Earth</h1>
+          </div>
+        </div>
+      </header>
+      <main role = "main">
+          <div id = "contenedor">
+              <div id = "caja">
+                <div id="mapid">
+              </div>
+              <div class="textoBox">
+                <input type="text" id="input1" size="35" class="texto"/>
+                <button onclick="myJsFunction()" class="button"> Enter! </button>
+              </div>
+              <div class="textoBox">
+                <button onclick="blueCircle(event)" class="button"> Reset </button>
+              </div>
+      </main>
+      <footer>
+          <h3></h3>
+      </footer>
+      <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
