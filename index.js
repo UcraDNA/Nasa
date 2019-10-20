@@ -261,7 +261,7 @@ var lista =[
 
 
 var a = 3;
-var rando = Math.floor(Math.random()*977);
+var rando = Math.floor(Math.random()*244);
 for(var i = 0; i <= rando; i++){
   console.log("Pais "+lista[a]);
   a = a + 4
@@ -317,7 +317,7 @@ function greenCircle(e) {
 //Dato de validacion para un resultado positivo (verde)
 function myJsFunction(){
     var text=document.getElementById('input1').value;
-    if (text == Cgenerator[2]){
+    if (text == lista[a]){
       greenCircle(event);
     } else{
       redCircle(event);
